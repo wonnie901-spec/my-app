@@ -10,7 +10,6 @@ html, body, [class*="css"]  {
         font-family: 'Catchy Mager', sans-serif;
 }
 </style>
-" " ",
 unsafe_allow_html=True
 )
 
