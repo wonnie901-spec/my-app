@@ -2,6 +2,7 @@ import re
 import streamlit as st
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.model_selection import train_test_split
 
 # Function to clean text
 def clean_text(text):
