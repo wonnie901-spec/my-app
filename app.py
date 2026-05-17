@@ -1,7 +1,4 @@
-st.set_page_config(
-    page_title="AI Scam Detector",
-    layout="centered"
-)
+
     
 st.markdown(
      <style>
@@ -25,6 +22,30 @@ import re
 import streamlit as st
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
+# Page config
+st.set_page_config(
+    page_title="AI Scam Detector",
+    layout="centered"
+)
+
+#Custom CSS for font + background
+st.markdown(
+    """
+    <style>
+    @import url ('https://fonts.googleapis.com/css2?family=CatchyMager:wght@400;600&display=swap')
+    
+    html, body, [class*="css"] {
+          font-family: 'Catchy Mager', sans-serif;
+    }
+    
+    body  {
+         background-color: #073763ff; /* dark blue 3 */
+         color: white;
+     }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Function to clean text
 def clean_text(text):
