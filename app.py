@@ -1,23 +1,3 @@
-
-    
-st.markdown(
-     <style>
-     @import url('https://fonts.googleapis.com/css2?family=CatchyMager:wght@400;600&display=swap')
-
-html, body, [class*="css"]  {
-        font-family: 'Catchy Mager', sans-serif;
-}
-</style>
-unsafe_allow_html=True
-)
-
-st.markdown(
-    body  {
-           background-color: #073763ff; /* dark blue 3 */
-    }
-    </style>
-    unsafe_allow_html=True
-)
 import re
 import streamlit as st
 from sklearn.feature_extraction.text import CountVectorizer
