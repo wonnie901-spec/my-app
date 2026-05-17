@@ -1,6 +1,7 @@
 st.set_page_config(
     page_title="AI Scam Detector",
     layout="centered"
+)
     
 st.markdown(
      <style>
