@@ -2,7 +2,7 @@ st.set_page_config(
     page_title="AI Scam Detector",
     layout="centered"
     
-st.markdown(" " "
+st.markdown("""
      <style>
      @import url('https://fonts.googleapis.com/css2?family=CatchyMager:wght@400;600&display=swap')
 
